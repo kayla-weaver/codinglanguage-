@@ -7,7 +7,8 @@ window.onload = function() {
     const selection = document.getElementById("coffee").value;
     const selection = document.getElementById("question").value;
     const selection = document.getElementById("other").value;
-    if ("spakle"=== optionvalue"yes" && "creepy"=== optionalvalue"no" && "coffee" === optionvalue"no" && "question"=== optionvalue "no"  && "other"=== optionalvalue"yes")
+    let yes = document.getElementById("optionvalue="yes"")
+    if ("spakle"=== yes)
     document.getElementById("Ruby").removeAttribute("class");
   }};
   
