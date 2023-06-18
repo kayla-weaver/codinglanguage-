@@ -1,4 +1,5 @@
 window.onload = function() {
+    const form = document.querySelector("form");
     document.querySelector("form").onsubmit = function(event) {
       event.preventDefault();
       hideResults();
@@ -7,11 +8,9 @@ window.onload = function() {
     const coffee = document.getElementById("coffee").value;
     const question = document.getElementById("question").value;
     const other = document.getElementById("other").value;
-    const yes= document.querySelector(optionValue#yes).value;
-    if ("spakle"=== yes)
+    const selectElement=document.getElementById("sparkles");
+    if ("spakle"= yes)
     document.getElementById("Ruby").removeAttribute("class");
-  }};
-  
   window.addEventListener("load", function() {
     document.getElementById("select-form").addEventListener("submit", handleSelect);
   });
@@ -19,4 +18,4 @@ window.onload = function() {
     document.getElementById("JavaScript").setAttribute("class","hidden");
     document.getElementById("Python").setAttribute("class","hidden");
     document.getElementById("Ruby").setAttribute("class","hidden");
-  }
+  }}}
