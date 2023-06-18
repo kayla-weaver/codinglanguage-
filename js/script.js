@@ -2,12 +2,12 @@ window.onload = function() {
     document.querySelector("form").onsubmit = function(event) {
       event.preventDefault();
       hideResults();
-    const selection = document.getElementById("sprakle").value;
-    const selection = document.getElementById("creepy").value;
-    const selection = document.getElementById("coffee").value;
-    const selection = document.getElementById("question").value;
-    const selection = document.getElementById("other").value;
-    let yes = document.getElementById("optionvalue="yes"")
+    const sparkle = document.getElementById("sprakle").value;
+    const creepy= document.getElementById("creepy").value;
+    const coffee = document.getElementById("coffee").value;
+    const question = document.getElementById("question").value;
+    const other = document.getElementById("other").value;
+    let yes = document.getElementById("optionvalue="yes"");
     if ("spakle"=== yes)
     document.getElementById("Ruby").removeAttribute("class");
   }};
