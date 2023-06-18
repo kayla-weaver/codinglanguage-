@@ -1,4 +1,4 @@
-# _{Coding language options}_
+# _Coding language options_
 
 #### By _**{Kayla Weaver}**_
 
