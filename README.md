@@ -1,6 +1,6 @@
 # _Coding language options_
 
-#### By _**{Kayla Weaver}**_
+#### By _**Kayla Weaver**_
 
 #### _{A JavaScript interface to place a coding language}_
 
