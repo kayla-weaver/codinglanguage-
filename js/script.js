@@ -9,8 +9,10 @@ window.onload = function() {
     const question = document.getElementById("question").value;
     const other = document.getElementById("other").value;
     const selectElement=document.getElementById("sparkles");
-    if ("spakle"= yes)
+    const yes= document.getElementById('input').value;
+    if (spakle= yes) {
     document.getElementById("Ruby").removeAttribute("class");
+    }}}
   window.addEventListener("load", function() {
     document.getElementById("select-form").addEventListener("submit", handleSelect);
   });
@@ -18,4 +20,4 @@ window.onload = function() {
     document.getElementById("JavaScript").setAttribute("class","hidden");
     document.getElementById("Python").setAttribute("class","hidden");
     document.getElementById("Ruby").setAttribute("class","hidden");
-  }}}
+  }

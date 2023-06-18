@@ -1,3 +1,24 @@
 .hidden{
     display:none;
 }
+body{
+    background-color:deeppink;
+    text-align: center;
+}
+h1 {
+    color: yellow;
+}
+h2 {
+    color:blueviolet;
+}
+h4 {
+    color:green;
+}
+button {
+    color:purple;
+    background-color:teal;
+}
+select {
+    color:chartreuse;
+    background-color:coral;
+}
