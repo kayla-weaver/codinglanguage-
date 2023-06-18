@@ -2,7 +2,7 @@
 
 #### By _**Kayla Weaver**_
 
-#### _{A JavaScript interface to place a coding language}_
+#### _A JavaScript interface to place a coding language_
 
 ## Technologies Used
 
@@ -20,7 +20,7 @@ _{This browser application allows the user to chose yes or no to five questions 
 * _Once here, you should be able to use the command code . to open the project in VS code_
 * _From VS Code you can click "Go Live" in the bottom right hand corner to view the website_
 
-_{ https://github.com/kayla-weaver/codinglanguage-.git }_
+_https://github.com/kayla-weaver/codinglanguage-.git_
 
 ## Known Bugs
 
