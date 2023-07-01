@@ -12,12 +12,9 @@ window.onload = function() {
     const yes= document.getElementById('input').value;
     if (spakle= yes) {
     document.getElementById("Ruby").removeAttribute("class");
-    }}}
-  window.addEventListener("load", function() {
-    document.getElementById("select-form").addEventListener("submit", handleSelect);
-  });
+    }}
   function hideResults(){
     document.getElementById("JavaScript").setAttribute("class","hidden");
     document.getElementById("Python").setAttribute("class","hidden");
     document.getElementById("Ruby").setAttribute("class","hidden");
-  }
+  }};
