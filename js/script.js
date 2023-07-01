@@ -1,6 +1,6 @@
 window.onload = function() {
-    const form = document.querySelector("form");
-    document.querySelector("form").onsubmit = function(event) {
+    const form = document.querySelector("select-form");
+    document.querySelector(form).onsubmit = function(event) {
      
       // hideResults();
     const sparkle = document.getElementById("sparkle").value;
@@ -9,8 +9,8 @@ window.onload = function() {
     const question = document.getElementById("question").value;
     const other = document.getElementById("other").value;
     // const selectElement=document.getElementById("sparkle");
-    const yes= document.getElementById('option').value;
-    const no= document.getElementById('option').value;
+    const yes= document.getElementById('yes').value;
+    const no= document.getElementById('no').value;
     let ruby = document.getElementById("Ruby");
     ruby.setAttribute("class","hidden");
     let javascript = document.getElementById("JavaScript");
