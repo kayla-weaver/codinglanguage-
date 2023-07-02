@@ -24,7 +24,7 @@ _https://github.com/kayla-weaver/codinglanguage-.git_
 
 ## Known Bugs
 
-* I have been unable to get my JavaScript to properly link with the answers to the questions to pop up after answered
+* No known bugs currently! 
 
 ## License
 MIT License
