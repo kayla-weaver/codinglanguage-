@@ -1,7 +1,6 @@
 window.onload = function() {
     const form = document.querySelector("select-form");
     document.querySelector(form).onsubmit = function(event) {
-     
       // hideResults();
     const sparkle = document.getElementById("sparkle").value;
     const creepy= document.getElementById("creepy").value;
@@ -10,6 +9,7 @@ window.onload = function() {
     const other = document.getElementById("other").value;
     // const selectElement=document.getElementById("sparkle");
     const yes= document.getElementById('yes').value;
+    console.log(yes)
     const no= document.getElementById('no').value;
     let ruby = document.getElementById("Ruby");
     ruby.setAttribute("class","hidden");
@@ -22,8 +22,10 @@ window.onload = function() {
     } else if (sparkle=== no && creepy=== no && coffee=== no && question=== no && other=== no) { 
       javascript.removeAttribute("class");
     } else {
-     python.removeAttribute("class"); 
+    python.removeAttribute("class"); 
     event.preventDefault();
     }}
   // function hideResults(){
   };
+
+  
